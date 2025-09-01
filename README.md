@@ -16,3 +16,9 @@ It relies only on **NumPy** and **Matplotlib** and does not require LaTeX.
 python -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
+
+Usage
+python generate_all_figs.py
+
+
+All figures will be exported into the ./figs/ directory.
